@@ -1,0 +1,153 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap'); /* Correct font family */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif; /* Adjust the font family here */
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #333;
+    background-size: cover;
+    background-position: center;
+    border: 2px solid #333;
+    overflow: hidden;
+}
+
+.Grupo {
+    width: 26.25rem;
+    background-color: transparent;
+    border: 0.12rem solid rgba(255, 255, 255, .2);
+    backdrop-filter: blur(1.25rem);
+    color: #fff;
+    border-radius: 1.25rem;
+    padding: 1.87rem 2.5rem;
+}
+
+.Grupo h1 {
+    font-size: 2rem;
+    text-align: center;
+}
+
+.Grupo .Input-Grupo {
+    position: relative;
+    height: 3.12rem;
+    margin: 2rem 0;
+}
+
+.Input-Grupo input {
+    width: 100%;
+    height: 100%;
+    background: transparent;
+    border: none;
+    outline: none;
+    border: 0.12rem solid rgba(255, 255, 255, .2);
+    border-radius: 2.5rem;
+    font-size: 1rem;
+    color: #fff;
+}
+
+.Input-Grupo::placeholder {
+    color: #fff;
+}
+
+.Input-Grupo i {
+    position: absolute;
+    top: 50%;
+    right: 1.25rem;
+    transform: translateY(-50%);
+    font-size: 1.5rem;
+}
+
+.Grupo .Lembre-de-mim {
+    display: flex;
+    justify-content: space-between;
+    font-size: 1rem;
+    margin: -1rem 0 1rem;
+}
+
+.Lembre-de-mim label input {
+    accent-color: #fff;
+    margin-right: 0.18rem;
+}
+
+.Lembre-de-mim a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.Lembre-de-mim a:hover {
+    text-decoration: underline;
+}
+
+.Grupo .btn a {
+    width: 100%;
+    height: 2.81rem;
+    background: #fff;
+    border: none;
+    outline: none;
+    border-radius: 2.5rem;
+    box-shadow: 0 0 0.62rem rgba(0, 0, 0, 1);
+    cursor: pointer;
+    font-size: 1rem;
+    color: #333;
+    font-weight: 600;
+    align-items: center;
+}
+
+.Grupo .Registre-se {
+    font-size: 0.90rem;
+    text-align: center;
+    margin: 1.25rem 0 0.93rem;
+}
+
+.Registre-se p a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.Registre-se p a:hover {
+    text-decoration: underline;
+}
+
+.btn-2 {
+    color: #000;
+    display: flex;
+    text-decoration: none;
+    justify-content: center;
+}
+
+.blod {
+    position: absolute;
+    width: 500px;
+    height: 500px;
+    background: linear-gradient(180deg, rgba(45, 184, 255, .42), #5c9df1 100%);
+    border-radius: 24% 76% 35% 65% / 27% 36% 64% 73%;
+    transform: translate(-100px,-50px)rotate(-100deg);
+    transition: 1s cubic-bezier(.07,.8,.16,1);
+    animation: animateblod 20s infinite alternate;
+}
+
+.blod:hover {
+    width: 520px;
+    height: 520px;
+    filter: blur(30px);
+    box-shadow: inset  0 0 0 5px rgba(255, 255, 255, .6), 
+     inset   100px 0 0 #19c233,
+     inset   200px  100px 0 0 #784ba8,
+     inset   300px  100px 0 0 #2b86c5;
+}
+
+@keyframes animateblod {
+    100% {
+        transform: translate(300px,50px)rotate(-10deg);
+        border-radius:76% 24% 33% 67% / 68% 55% 45% 32%; ;
+    }
+}

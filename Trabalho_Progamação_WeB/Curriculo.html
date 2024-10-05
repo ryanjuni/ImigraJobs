@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="pt-Br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cadastro de Currículo</title>
+  <link rel="stylesheet" href="./Style/Curriculo.css">
+</head>
+<body>
+
+    <div class="campo"> 
+      <h1 id="titulo">Cadastramento de Currículo</h1>
+     <p id="subtitulo"> Complete Suas Informações </p>
+    </div>
+
+    <form>
+      <fieldset class="grupo">
+        <div class="campo">
+          <label for="Nome"> <strong>Nome</strong></label>
+            <input type=" text" name="name" id="name" required>
+            <label for="sobrenome"><strong>Sobrenome</strong></label>
+            <div class="campo">
+            <input type="text" name="Sobrenome" id="Sobrenome" required>
+          </div>
+          <label for="email"><strong>Email</strong></label>
+          <div class="campo">
+            <input type="email" name="email" id="email" required>
+          </div>
+
+          <label><strong> Telefone</strong></label>
+          <input type=" text" name="Telefone" id="Telefone"required>
+
+          
+        </div>
+        <div class="check">
+          <label><strong> Qual é a sua área de Atuação  ?</strong></label>
+        
+            <label><input type="radio" name="opção" value="opção"></label> CiberSegurança
+            <label><input type="radio" name="opção" value="opção"></label> Desenvolvimento
+            <label><input type="radio" name="opção" value="opção"></label> Designer
+            <label><input type="radio" name="opção" value="opção"></label> Marketing
+            <label><input type="radio" name="opção" value="opção"></label> Engenharia
+            <label><input type="radio" name="opção" value="opção"></label> Ánalise de dados
+            <label><input type="radio" name="opção" value="opção"></label> Gerente
+            <label><input type="radio" name="opção" value="opção"></label> Arquiteto
+  
+        </div>
+        <div class="campo">
+          <label><strong> Qual é  o seu nivel  de Formação ?</strong></label>
+          <select name="opção">
+            <option selected vale disabled></option>
+            <option> Completo</option>   
+            <option>Incompleto</option>   
+            <option> Em Andamento</option>
+            <option>Trancado</option>    
+          </select>
+          <label><strong>Qual e  a sua Instuição de Ensino Superior ?</strong></label>
+          <div class="campo">
+            <input type="text" name="name" id="name">
+          </div>
+          </div>
+          <div class="campo">
+            <fieldset class="grupo">
+              <label><strong>Selecione o seu Sexo</strong> </label>
+              <div class="campo">
+                <select>
+                <option selected value disabled></option>
+                <option>masculino</option>
+                <option>feminino</option>
+                <option>transgênero</option>
+                <option>gênero neutro</option>
+                <option>não-binário</option>
+                <option>agênero</option>
+                <option>pangênero</option>
+                <option>Prefiro não Dizer</option>
+              </select>
+              </div>
+</fieldset>
+              <div>
+                <label><strong>Selecione o seu Idioma </strong></label>
+                <select>
+                  
+                  <option selected value disabled></option>
+                  <option>Inglês</option>
+                  <option>Francês</option>
+                  <option>Italiano</option>
+                  <option>Espanhol</option>
+                  <option>inglês britânico</option>
+                  <option>nglês canadense</option>
+                  <option>Chinês</option>
+                  <option>Japonês</option>
+                </select>
+              </div>
+              <label><strong>Qual e o  seu País de Origem ? </strong></label>
+              <input type="text">
+
+
+              <label><strong> Número  do Documento  do Seu País (Exemplo) Registro Geral (RG)  </strong></label>
+              <input type="text">
+            </fieldset>
+
+            <div class="campo">
+              <label>nós Conte mais sobre Você</label>
+                <textarea></textarea>
+            </div>
+          </div>
+        </fieldset>
+      </form>
+      <button  onclick="alert('Currículo Salvo Com Sucesso !')"   class="button" href="">Concluído</button>
+</body>
+</html>

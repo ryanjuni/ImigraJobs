@@ -1,0 +1,314 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.8/css/line.css">
+    <link rel="stylesheet" href="./Style/swiper-bundle.min.css">
+    <link rel="stylesheet" href="./Style/Style.css">
+    <title>ImigraJobs</title>
+</head>
+<body>
+    <section class="main">
+        <header>
+            <div class="logo">
+                <a href="#">
+                    <span class="logo-fonte">Imigra</span>
+                    <span class="logo-fonte-2">Jobs</span>
+                </a>
+            </div>
+            <div class="Pesquisa-container">
+                <div class="Pesquisa">
+                    <i class="uil uil-search"></i>
+                    <input type="text" class="barra_de_pesquisa" placeholder="Pesquisar Vagas">
+                </div>
+            </div>
+            <div class="Menu">
+                <a class="menu-btn"><span>Menu</span><i class="uil uil-apps"></i></a>
+                <div class="Grupo-menu">
+                    <div class="Janelas">
+                        <div class="Janela-menu">
+                            <div class="menu-opcao">
+                                <div class="fechar-menu"><i class="uil uil-times"></i><span>Fechar</span></div>
+                                <div class="menu-icon"><i class="uil uil-apps"></i></div>
+                                <div class="menu-item">
+                                    <a href="index.html"><i class="uil uil-home"></i> Início</a>
+                                    <a href="login.html"><i class="uil uil-user"></i> Conta</a>
+                                    <a href="Curriculo.html"><i class="uil uil-file"></i> Cadastrar Currículo</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+
+        <div class="slide-container"> 
+            <div class="swiper cardsSwiper">
+                <div class="swiper-wrapper">
+                    <!-- Primeiro Card -->
+                    <div class="swiper-slide">
+                        <div class="card amazon" onclick="openModal('Desenvolvedor', 'Amazon', 'Resumo  da Vaga', 'Estamos à procura de um Desenvolvedor altamente motivado e habilidoso para se juntar à nossa equipe. O candidato ideal deve ter uma sólida experiência em desenvolvimento de software e ser capaz de trabalhar em diferentes camadas de uma aplicação.')">
+                            <div class="card-img">
+                                <img src="./Img/amazon (2).png" alt="Amazon Logo" class="Amazon-img">
+                                <span class="logo-1">D</span>
+                            </div>
+                            <div class="card-conteudo">
+                                <div class="informacao">
+                                    <h2>Desenvolvedor</h2>
+                                    <div class="subInformacao">
+                                        <span>Empresa: Amazon</span>
+                                        <h4>Modo: Remoto</h4>
+                                    </div>
+                                </div>
+                                <div class="saiba-mais">
+                                    <a href="#"><span>Saiba mais</span><i class="uil uil-angle-right"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Segundo Card -->
+                    <div class="swiper-slide">
+                        <div class="card amazon" onclick="openModal('Desenvolvedor Web', 'Amazon', 'Resumo da Vaga', 'Estamos em busca de um Desenvolvedor Web talentoso e apaixonado para se juntar à nossa equipe em um ambiente dinâmico e inovador. O candidato ideal deve ter experiência em desenvolvimento de aplicações web e um forte entendimento de design responsivo.')">
+                            <div class="card-img">
+                                <img src="./Img/amazon (2).png" alt="Amazon Logo" class="Amazon-img">
+                                <span class="logo-1">Dw</span>
+                            </div>
+                            <div class="card-conteudo">
+                                <div class="informacao">
+                                    <h2>Desenvolvedor Web</h2>
+                                    <div class="subInformacao">
+                                        <span>Empresa: Amazon</span>
+                                        <h4>Modo: Remoto</h4>
+                                    </div>
+                                </div>
+                                <div class="saiba-mais">
+                                    <a href="#"><span>Saiba mais</span><i class="uil uil-angle-right"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Terceiro Card -->
+                    <div class="swiper-slide">
+                        <div class="card amazon" onclick="openModal('CiberSegurança', 'Amazon', 'Resumo da Vaga', 'Estamos em busca de um Analista de Cibersegurança para se juntar à nossa equipe dinâmica. O candidato ideal deve ter experiência em proteger sistemas e dados contra ataques cibernéticos e vulnerabilidades.')">
+                            <div class="card-img">
+                                <img src="./Img/amazon (2).png" alt="Amazon Logo" class="Amazon-img">
+                                <span class="logo-1">Cs</span>
+                            </div>
+                            <div class="card-conteudo">
+                                <div class="informacao">
+                                    <h2>CiberSegurança</h2>
+                                    <div class="subInformacao">
+                                        <span>Empresa: Amazon</span>
+                                        <h4>Modo: Remoto</h4>
+                                    </div>
+                                </div>
+                                <div class="saiba-mais">
+                                    <a href="#"><span>Saiba mais</span><i class="uil uil-angle-right"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Quarto Card -->
+                    <div class="swiper-slide">
+                        <div class="card amazon" onclick="openModal('Gerente de Produto', 'Amazon', 'Resumo da Vaga', ' Estamos à procura de um Gerente experiente e motivado para liderar e supervisionar as operações diárias de nossa empresa. O candidato ideal será responsável por gerenciar equipes, garantir o cumprimento de metas operacionais e implementar estratégias para aumentar a eficiência e a produtividade.')">
+                            <div class="card-img">
+                                <img src="./Img/amazon (2).png" alt="Amazon Logo" class="Amazon-img">
+                                <span class="logo-1">Gp</span>
+                            </div>
+                            <div class="card-conteudo">
+                                <div class="informacao">
+                                    <h2>Gerente de Produto</h2>
+                                    <div class="subInformacao">
+                                        <span>Empresa: Amazon</span>
+                                        <h4>Modo: Remoto</h4>
+                                       
+                                    </div>
+                                </div>
+                                <div class="saiba-mais">
+                                    <a href="#"><span>Saiba mais</span><i class="uil uil-angle-right"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Quinto Card -->
+                    <div class="swiper-slide">
+                        <div class="card amazon" onclick="openModal('Analista de Dados', 'Amazon', 'Resumo da Vaga', 'Estamos em busca de um Analista de Dados altamente motivado e analítico para se juntar à nossa equipe. O candidato ideal será responsável por coletar, processar e analisar grandes volumes de dados para ajudar a empresa a tomar decisões baseadas em dados. Esta posição é fundamental para impulsionar insights e melhorar o desempenho dos negócios.')">
+                            <div class="card-img">
+                                <img src="./Img/amazon (2).png" alt="Amazon Logo" class="Amazon-img">
+                                <span class="logo-1">Ad</span>
+                            </div>
+                            <div class="card-conteudo">
+                                <div class="informacao">
+                                    <h2>Analista de Dados</h2>
+                                    <div class="subInformacao">
+                                        <span>Empresa: Amazon</span>
+                                        <h4>Modo: Remoto</h4>
+                                    </div>
+                                </div>
+                                <div class="saiba-mais">
+                                    <a href="#"><span>Saiba mais</span><i class="uil uil-angle-right"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Sexto Card -->
+                    <div class="swiper-slide">
+                        <div class="card amazon" onclick="openModal('Designer Gráfico', 'Amazon', 'Resumo da Vaga', 'Estamos em busca de um Designer Gráfico talentoso e criativo para se juntar à nossa equipe. O candidato ideal será responsável pela criação de designs visuais impactantes que ajudem a comunicar a identidade da marca e os objetivos de marketing. Esta é uma excelente oportunidade para um profissional que deseja desenvolver suas habilidades em um ambiente dinâmico e colaborativo.')">
+                            <div class="card-img">
+                                <img src="./Img/amazon (2).png" alt="Amazon Logo" class="Amazon-img">
+                                <span class="logo-1">Dg</span>
+                            </div>
+                            <div class="card-conteudo">
+                                <div class="informacao">
+                                    <h2>Designer Gráfico</h2>
+                                    <div class="subInformacao">
+                                        <span>Empresa: Amazon</span>
+                                        <h4>Modo: Remoto</h4>
+                                    </div>
+                                </div>
+                                <div class="saiba-mais">
+                                    <a href="#"><span>Saiba mais</span><i class="uil uil-angle-right"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Sétimo Card -->
+                    <div class="swiper-slide">
+                        <div class="card amazon" onclick="openModal('Gerente de Marketing', 'Amazon', 'Resumo da Vaga', 'Estamos à procura de um Gerente de Marketing criativo e motivado para liderar nossa equipe de marketing e impulsionar o crescimento da nossa marca. O candidato ideal será responsável por desenvolver estratégias de marketing eficazes e inovadoras para aumentar a visibilidade e o alcance da empresa.')">
+                            <div class="card-img">
+                                <img src="./Img/amazon (2).png" alt="Amazon Logo" class="Amazon-img">
+                                <span class="logo-1">Gm</span>
+                            </div>
+                            <div class="card-conteudo">
+                                <div class="informacao">
+                                    <h2>Gerente de Marketing</h2>
+                                    <div class="subInformacao">
+                                        <span>Empresa: Amazon</span>
+                                        <h4>Modo: Remoto</h4>
+                                    </div>
+                                </div>
+                                <div class="saiba-mais">
+                                    <a href="#"><span>Saiba mais</span><i class="uil uil-angle-right"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Oitavo Card -->
+                    <div class="swiper-slide">
+                        <div class="card amazon" onclick="openModal('Desenvolvedor de Software', 'Amazon', 'Resumo da Vaga', 'Estamos em busca de um Desenvolvedor de Software talentoso e dedicado para se juntar à nossa equipe dinâmica. O candidato ideal deve ter um forte conhecimento em várias linguagens de programação, bem como a capacidade de resolver problemas complexos e desenvolver soluções inovadoras.')">
+                            <div class="card-img">
+                                <img src="./Img/amazon (2).png" alt="Amazon Logo" class="Amazon-img">
+                                <span class="logo-1">Ds</span>
+                            </div>
+                            <div class="card-conteudo">
+                                <div class="informacao">
+                                    <h2>Desenvolvedor de Software</h2>
+                                    <div class="subInformacao">
+                                        <span>Empresa: Amazon</span>
+                                        <h4>Modo: Remoto</h4>
+                                    </div>
+                                </div>
+                                <div class="saiba-mais">
+                                    <a href="#"><span>Saiba mais</span><i class="uil uil-angle-right"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="navegacao">
+                    <div class="swiper-button-next">Próximo<i class="uil uil-angle-right-b"></i></div>
+                    <div class="swiper-button-prev">Voltar<i class="uil uil-angle-left-b"></i></div>
+                </div>
+            </div>
+        </div>
+
+        <div class="info-vaga" id="jobModal">
+            <div class="info-vaga-container">
+                <div class="fechar-info" onclick="closeModal()">X</div>
+                <h1 id="jobTitle">Título do Job</h1>
+                <h3>Empresa: <span id="jobCompany">Empresa</span></h3>
+                <h4><span id="jobCity">Remoto</span></h4>
+                <p id="jobDescription">Descrição da vaga.</p>
+                <div class="link-inscricao">
+                    <a onclick="alert('Curriculo Enviado Com Sucesso !!')" id="applyLink">Inscreva-se</a>
+                </div>
+            </div>
+        </div>
+
+        <script src="./Js/swiper-bundle.min.js"></script>
+        <script src="./Js/menu.js"></script>
+        <script>
+            var swiper = new Swiper(".cardsSwiper", {
+                slidesPerView: 4,
+                spaceBetween: 10,
+                navigation: {
+                    nextEl: ".swiper-button-next",
+                    prevEl: ".swiper-button-prev",
+                },
+                pagination: {
+                    el: ".swiper-pagination",
+                    clickable: true,
+                },
+                breakpoints: {
+                    710: {
+                        slidesPerView: 2,
+                        slidesoffsetBefore: 30,
+                        slidesoffsetAfter: 100
+                    },
+                    780: {
+                        slidesPerView: 2.2,
+                        slidesoffsetBefore: 30,
+                        slidesoffsetAfter: 100
+                    },
+                    855: {
+                        slidesPerView: 2.5,
+                        slidesoffsetBefore: 30,
+                    },
+                    1070: {
+                        slidesPerView: 3,
+                        slidesoffsetBefore: 30,
+                        slidesoffsetAfter: 100
+                    },
+                    1280: {
+                        slidesPerView: 3.7,
+                        slidesoffsetBefore: 30,
+                        slidesoffsetAfter: 100
+                    },
+                    1560: {
+                        slidesPerView: 4.4,
+                        slidesoffsetBefore: 30,
+                        slidesoffsetAfter: 100
+                    },
+                },
+            });
+
+            function openModal(title, company, city, description) {
+                document.getElementById('jobTitle').innerText = title;
+                document.getElementById('jobCompany').innerText = company;
+                document.getElementById('jobCity').innerText = city;
+                document.getElementById('jobDescription').innerText = description;
+                document.getElementById('jobModal').style.display = 'flex';
+            }
+
+            function closeModal() {
+                document.getElementById('jobModal').style.display = 'none'; 
+            }
+        </script>
+
+        <div class="Social-media">
+            <a href="https://www.linkedin.com/in/ryan-junio-733278258/" title="Visite meu perfil no LinkedIn">
+                <i class="uil uil-linkedin"></i> linkedin
+            </a>
+        </div>
+    </section>
+</body>
+</html>
